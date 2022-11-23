@@ -1,0 +1,37 @@
+.hospitalManagement {
+    &__container {
+        header {
+            text-align: center;
+            font-weight: 500;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        table {
+            background-color: #ffffff;
+            width: 100%;
+            border-collapse: collapse; 
+        }
+        th {
+            padding: 16px 4px;
+            background-color: #ccc;
+            text-align: left;
+        }
+        td {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+
+    }
+    &__action {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        &-search {
+            width: 50%;
+        }
+    }
+    &__pagination {
+        margin-top: 20px;
+    }
+}
